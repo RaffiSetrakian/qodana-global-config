@@ -1,1 +1,5 @@
-
+configurations:
+  - id: shared
+    name: Shared Configuration
+    description: Common settings for all projects
+    qodanaYaml: shared/qodana.yaml

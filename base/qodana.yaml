@@ -1,1 +1,12 @@
-
+# Standard configuration for all projects
+version: "1.0"
+profile:
+  name: "Standard Base"
+  inspections:
+    # Essential checks enabled for every repository
+    - group: "Code style"
+      enabled: true
+    - group: "Probable bugs"
+      enabled: true
+    - inspection: "RedundantThrows"
+      enabled: true

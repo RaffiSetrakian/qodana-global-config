@@ -13,3 +13,8 @@ configurations:
     name: Experimental Configuration
     description: Sandbox for new and strict inspections
     qodanaYaml: experimental/experimental.yaml
+
+  - id: default-config
+    name: Default Configuration
+    description: Standard settings for general projects
+    qodanaYaml: base/default.yaml

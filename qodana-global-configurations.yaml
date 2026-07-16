@@ -3,3 +3,13 @@ configurations:
     name: Shared Configuration
     description: Common settings for all projects
     qodanaYaml: shared/qodana.yaml
+
+  - id: base-config
+    name: Base Configuration
+    description: Stable baseline for all projects
+    qodanaYaml: base/qodana.yaml
+
+  - id: experimental-config
+    name: Experimental Configuration
+    description: Sandbox for new and strict inspections
+    qodanaYaml: experimental/experimental.yaml

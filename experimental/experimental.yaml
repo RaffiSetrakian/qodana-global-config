@@ -1,1 +1,15 @@
-
+# Experimental rules for testing
+version: "1.0"
+profile:
+  name: "Experimental Sandbox"
+  inspections:
+    # Enable aggressive rules to test team reaction
+    - inspection: "MagicNumber"
+      enabled: true
+    - inspection: "AssignmentToForLoopParameter"
+      enabled: true
+    # Enable new experimental language features
+    - inspection: "JavaDocMissing"
+      enabled: true
+    - inspection: "UnnecessaryLocalVariable"
+      enabled: true
